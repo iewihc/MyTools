@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "4GfBvZt8QufANlY2hhB0Rsne4DSJyzdQh+ItSVBNFWqve8PBfu8W8xyf1By8xuFweRGq5p48kefll/cSyK9VJA==",
+  "success": true,
+  "projectFilePath": "D:\\repo\\WeiDbTool\\WeiDbTool\\WeiDbTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\coder\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\coder\\.nuget\\packages\\mahapps.metro\\2.4.8\\mahapps.metro.2.4.8.nupkg.sha512",
+    "C:\\Users\\coder\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\coder\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

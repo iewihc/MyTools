@@ -1,0 +1,35 @@
+﻿<mah:MetroWindow x:Class="WeiDbTool.MainWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                 xmlns:local="clr-namespace:WeiDbTool"
+                 xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                 mc:Ignorable="d"
+                 Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+
+                <RadioButton Name="rb1" Checked="ToggleButton_OnChecked" GroupName="ready">EC</RadioButton>
+                <RadioButton Name="rb2" Checked="ToggleButton_OnChecked" GroupName="ready">User</RadioButton>
+
+
+                <StackPanel Width="200" Height="100" Background="Azure" Name="ImagePanel" Drop="ImagePanel_Drop" AllowDrop="true">
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">拖曳DbContext至此</TextBlock>
+                </StackPanel>
+
+                <TextBox x:Name="tb1" TextWrapping="Wrap" IsReadOnly="True" mah:TextBoxHelper.Watermark="Generated Text......" />
+
+
+                <GridSplitter />
+
+                <TextBox x:Name="tb2" TextWrapping="Wrap" AcceptsReturn="True" mah:TextBoxHelper.Watermark="Input Json" />
+
+                <Button  Click="ButtonBase_OnClick">Convert JSON TO C# Class Data</Button>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</mah:MetroWindow>
